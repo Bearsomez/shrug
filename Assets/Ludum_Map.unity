@@ -1703,7 +1703,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &161140965
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7342,9 +7342,9 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_Offset: {x: .0595664978, y: -.247439146}
+  m_Offset: {x: .0595664978, y: -.344890237}
   serializedVersion: 2
-  m_Size: {x: 2.88086104, y: 2.30350447}
+  m_Size: {x: 2.88086104, y: 2.10860229}
 --- !u!95 &912967104
 Animator:
   serializedVersion: 3
@@ -15043,12 +15043,12 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1780076484}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 271158fc0007e42ea9d1a028b6b70a21, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dampTime: .25
+  dampTime: .5
   target: {fileID: 161140962}
 --- !u!114 &1780076491
 MonoBehaviour:
@@ -15056,7 +15056,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1780076484}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a3b0ddbd22b91445ebfaf839d4f38b39, type: 3}
   m_Name: 
